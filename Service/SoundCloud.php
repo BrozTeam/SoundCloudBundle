@@ -1,6 +1,6 @@
 <?php
 
-namespace Broz\SoundCloudBundle\Services;
+namespace Broz\SoundCloudBundle\Service;
 
 use Soundcloud\Exception\InvalidHttpResponseCodeException;
 use Soundcloud\Service as IseSoundCloud;

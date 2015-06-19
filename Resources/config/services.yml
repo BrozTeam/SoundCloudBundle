@@ -1,4 +1,4 @@
 services:
     broz.soundcloud:
-        class: Broz\SoundCloudBundle\Services\SoundCloud
+        class: Broz\SoundCloudBundle\Service\SoundCloud
         arguments: [%broz_sound_cloud%]
