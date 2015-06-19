@@ -36,7 +36,7 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
-            new Broz\SoundCloudBundle\Broz\SoundCloudBundle(),
+            new Broz\SoundCloudBundle\BrozSoundCloudBundle(),
         );
 
         // ...
