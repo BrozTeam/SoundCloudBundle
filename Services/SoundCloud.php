@@ -24,7 +24,7 @@ class SoundCloud extends IseSoundCloud {
             return json_decode($this->get('resolve', array('url' => $permalinkUrl)));
         }
         catch (InvalidHttpResponseCodeException $e) {
-            throw new \RuntimeException(sprintf('Could not find track with permalink url %s', $permalinkUrl), 0, $e);
+            throw new \RuntimeException(sprintf('Could not find resource with permalink url %s', $permalinkUrl), 0, $e);
         }
     }
 }
