@@ -45,3 +45,13 @@ class AppKernel extends Kernel
     // ...
 }
 ```
+
+### Step 3: Configure the bundle
+
+``` yaml
+# app/config/config.yml
+# you will get these parameters form https://soundcloud.com/you/apps/[app_name]/edit"
+broz_sound_cloud:
+    client_id:
+    client_secret:
+```
