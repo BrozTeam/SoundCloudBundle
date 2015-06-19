@@ -17,5 +17,6 @@
     "autoload": {
         "psr-0": { "Broz\\SoundCloudBundle": "" }
     },
-    "target-dir": "Broz/SoundCloudBundle"
+    "target-dir": "Broz/SoundCloudBundle",
+    "minimum-stability": "dev"
 }
